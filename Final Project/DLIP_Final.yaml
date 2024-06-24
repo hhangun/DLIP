@@ -1,0 +1,26 @@
+# * DLIP_Final Project_CNN Object Detection: Management of Expiration Dates and Inventory in Unmanned Stores
+# * author: Gyeonheal An, TaegeonHan
+# * Date: 2024-06-24
+# * yaml code for training
+
+train:
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\coffee\images\training
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\milk\images\training
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\yogurt\images\training
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\triangle_kimbap\images\training
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\sandwich\images\training
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\collection\images\training
+val:
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\coffee\images\validation
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\milk\images\validation
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\yogurt\images\validation
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\triangle_kimbap\images\validation
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\sandwich\images\validation
+  - C:\Users\hilla\source\repos\DLIP_GH\Final\datasets\food\Archive\collection\images\validation
+
+# number of classes
+nc: 5
+
+# class names
+names: ['Triangle kimbap', 'Milk', 'Coffee', 'Yogurt', 'Sandwich']
+
